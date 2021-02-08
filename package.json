@@ -1,5 +1,5 @@
 {
-  "name": "contact-keeper",
+  "name": "ck",
   "version": "1.0.0",
   "description": "Contact Keeper",
   "main": "server.js",
@@ -7,11 +7,19 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goransuljak/CK.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goransuljak/CK/issues"
+  },
+  "homepage": "https://github.com/goransuljak/CK#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
     "config": "^3.3.3",
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
@@ -19,7 +27,6 @@
     "mongoose": "^5.11.15"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
     "nodemon": "^2.0.7"
   }
 }
